@@ -1,0 +1,72 @@
+
+* {
+    // outline: 1px solid red !important;
+    color: rgb(47, 47, 47);
+    user-select: none;
+}
+
+a.up, a.down {
+    text-decoration: none;
+}
+
+body #root header, body #root footer {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+body #root footer {
+    font-size: 0.75em;
+}
+
+header h1 {
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+body #root header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.counter {
+    font-family: monospace;
+    font-size: 10em;
+    font-weight: 600;
+    transition: 0.2s;
+    
+    &:hover {
+      font-size: 11em;
+    }
+}
+
+.app{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-height: 200px;
+}
+
+.left , .right{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body #root footer {
+    margin: 10px;
+}
+
+svg {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
