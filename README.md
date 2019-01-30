@@ -10,6 +10,7 @@ Date:1-29-2019
 
 [github repo](https://github.com/asdFletcher/27-react-testing)
 [front end](http://lab-27-fl.s3-website.us-east-2.amazonaws.com/#)
+[code sandbox](https://codesandbox.io/s/3132p93k35)
 
 ##Components:
 
